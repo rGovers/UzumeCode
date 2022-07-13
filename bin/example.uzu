@@ -1,0 +1,34 @@
+daydream other
+    shout "Yeah, yeah, yeah!~"
+    daydream caller
+
+    letsgo "Spiral.... DREAM!~"
+enddaydream
+
+daydream uzume
+    shout "ORRAAAAA"
+
+    val daydream other
+    shout val
+
+    shout "enter name"
+    megaphone input
+
+    shout input
+    shout "How can you have any pudding if you dont eat your meat"
+
+    guro
+        shout "Do you want wuv"
+        megaphone user
+
+        does user wuv "yes"
+            dream
+        enddoes
+
+        shout "Why not?"
+    endguro
+enddaydream
+
+daydream caller
+    shout "Uzume will give you a dream..... BLOW AWAAAAY!~"
+enddaydream
